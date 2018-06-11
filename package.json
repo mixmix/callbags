@@ -1,0 +1,26 @@
+{
+  "name": "callbags",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mixmix/callbags.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mixmix/callbags/issues"
+  },
+  "homepage": "https://github.com/mixmix/callbags#readme",
+  "devDependencies": {
+    "callbag-interval": "^1.0.0",
+    "callbag-map": "^1.0.1",
+    "callbag-observe": "^1.0.0",
+    "callbag-pipe": "^1.1.1"
+  }
+}
