@@ -1,4 +1,4 @@
-const c = require('./')(['pipe', 'interval', 'map', 'observe'])
+const c = require('../')(['pipe', 'interval', 'map', 'observe'])
 
 c.pipe(
   c.interval(1000),
@@ -6,7 +6,7 @@ c.pipe(
   c.observe(console.log)
 )
 
-const cb = require('./')('pipe', 'interval', 'map', 'observe')
+const cb = require('../')('pipe', 'interval', 'map', 'observe')
 
 cb.pipe(
   cb.interval(1000),

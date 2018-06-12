@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test/transform.js && node test/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,9 +18,13 @@
   },
   "homepage": "https://github.com/mixmix/callbags#readme",
   "devDependencies": {
+    "browserify": "^16.2.2",
     "callbag-interval": "^1.0.0",
     "callbag-map": "^1.0.1",
     "callbag-observe": "^1.0.0",
     "callbag-pipe": "^1.1.1"
+  },
+  "dependencies": {
+    "static-module": "^3.0.0"
   }
 }
