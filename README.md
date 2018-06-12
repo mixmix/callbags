@@ -26,3 +26,25 @@ pipe(
   observe(console.log)
 )
 ```
+
+## Browser
+
+`callbags/transform` is a [`browserify`](https://github.com/browserify/browserify/) transform that lets you use `callbags` in the browser.
+
+Using the `browserify` cli:
+
+```shell
+browserify entry.js -t callbags/transform
+```
+
+Using your package.json:
+
+```json
+{
+  "browserify": {
+    "transform": [
+      "callbags/transform"
+    ]
+  }
+}
+```
