@@ -14,11 +14,11 @@ c.pipe(
 
 This is the equivalent of 
 
-```
-cont pipe = require('callbage-pipe')
-cont interval = require('callbage-interval')
-cont map = require('callbage-map')
-cont observe = require('callbage-observe')
+```js
+const pipe = require('callbage-pipe')
+const interval = require('callbage-interval')
+const map = require('callbage-map')
+const observe = require('callbage-observe')
 
 pipe(
   interval(1000),
